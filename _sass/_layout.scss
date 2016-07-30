@@ -53,8 +53,8 @@
         }
 
         .page-link {
-            font-family: 'Open Sans';
-            font-weight: 700 !important;
+            font-family: $post-font-family;
+            font-weight: 600 !important;
             line-height: $base-line-height;
             letter-spacing: 0.05em;
 
@@ -75,7 +75,7 @@
         padding-bottom: 3em;
         margin: auto;
         font-size: 12px;
-        font-family: Open Sans;
+        font-family: $post-font-family;
         color: #959595;
     }
 
@@ -121,7 +121,7 @@
     }
 
     .post-link {
-        font-family: 'Open Sans';
+        font-family: $post-font-family;
         font-weight: 300;
         font-size: 1.5em;
         letter-spacing: -1px;
@@ -143,8 +143,18 @@
 
 /* Post Format
  * ============================================== */
+
+     .logo-header {
+         margin-top: -$spacing-unit;
+         margin-bottom: $spacing-unit;
+         text-align: center;
+         border-bottom: 1px solid $brand-color-light;
+     }
+
     .post-header {
         margin-bottom: $spacing-unit;
+        text-align: center;
+        border-bottom: 1px solid $brand-color-light;
     }
 
     .post-title {
