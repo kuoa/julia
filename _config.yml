@@ -2,7 +2,7 @@
 title: Julia #website title
 description: > # this means to ignore newlines until "baseurl:"
   Julia
-url: # the base hostname & protocol for your site
+url: https://kuoa.github.io # the base hostname & protocol for your site
 baseurl: # the sub-path of your site, e.g. /blog/
 
 disqus_shortname: kuoa # leave empty if you don't want comments
@@ -15,7 +15,7 @@ links:
     external:     false
   - name:         Projects
     url:          /projects
-    external:     true
+    external:     false
   - name:         GitHub
     url:          http://github.com/kuoa
     external:     true
