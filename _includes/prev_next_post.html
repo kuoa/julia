@@ -1,0 +1,16 @@
+<div class="post-paging">
+  {% if page.previous %}
+    <div class="left">
+      <a href="{{ page.previous.url }}">
+        <i class="fa fa-angle-left fa-2x"></i>
+      </a>
+    </div>
+  {% endif %}
+  {% if page.next %}
+    <div class="right">
+      <a href="{{page.next.url}}">
+        <i class="fa fa-angle-right fa-2x"></i>
+      </a>
+    </div>
+  {% endif %}
+</div>

@@ -13,13 +13,15 @@ layout: main
     <li>
         <div>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <!-- <span> - {{ post.date | date_to_long_string }}</span> -->
+            <span class="post-date">{{ post.date | date_to_long_string }}</span>
         </div>
     </li>
     {% endfor %}
   </ul>
 
     <div class="footer center">
-        Powered by <a href=http://jekyllrb.com target="_blank">Jekyll</a>
+        Built with Jekyll using
+        <a href="https://github.com/kuoa/julia" target="_blank">Julia</a>
+        theme
     </div>
 </div>

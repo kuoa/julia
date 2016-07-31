@@ -4,7 +4,6 @@ title: "blocks"
 date: 2015-08-30
 categories: blocks
 ---
-# blocks
 My second attempt at a game project. Developing a puzzle matching game in **Java** using **AWT**.
 
 ### Screenshots

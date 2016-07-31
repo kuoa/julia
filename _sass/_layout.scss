@@ -7,6 +7,14 @@
         width: 100%;
     }
 
+
+    .logo-header {
+      margin-top: -$spacing-unit;
+      margin-bottom: $spacing-unit;
+      text-align: center;
+      border-bottom: 1px solid $brand-color-light;
+    }
+
     .site-header a {color: $brand-color};
 
     .site-nav {
@@ -126,13 +134,26 @@
         font-size: 1.5em;
         letter-spacing: -1px;
         color: #454545;
-        display: block;
         width: 100%;
 
         @include media-query($on-palm) {
             font-size: 1.33em;
         }
     }
+
+     .post-date {
+       font-family: $post-font-family;
+       font-weight: 300;
+       font-size: 1.2em;
+       letter-spacing: -1px;
+       color: $grey-color;
+       float: right;
+
+       @include media-query($on-palm) {
+         font-size: 1.0em;
+       }
+     }
+
 
     .post-meta {
         font-size: $small-font-size;
@@ -143,14 +164,6 @@
 
 /* Post Format
  * ============================================== */
-
-     .logo-header {
-         margin-top: -$spacing-unit;
-         margin-bottom: $spacing-unit;
-         text-align: center;
-         border-bottom: 1px solid $brand-color-light;
-     }
-
     .post-header {
         margin-bottom: $spacing-unit;
         text-align: center;
@@ -166,3 +179,33 @@
     .post-content {
         margin-bottom: $spacing-unit;
     }
+
+   .post-paging a {
+       opacity: 0.4;
+   }
+
+   .post-paging a:hover {
+       opacity: 0.8;
+   }
+
+  .post-paging .left, .post-paging .right {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+  }
+
+  .post-paging .left {
+      margin-left: -440px;
+  }
+
+  .post-paging .right {
+      margin-left: 410px;
+  }
+
+  .post-up a {
+    opacity: 0.4;
+  }
+
+  .post-up a:hover{
+    opacity: 0.8;
+  }
