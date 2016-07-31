@@ -17,6 +17,14 @@ layout: default
     {{ content }}
   </article>
 
+    {% if site.google_analytics %}
+        {% include google_analytics.html %}
+    {% endif %}
+
+    {% if site.disqus_shortname %}
+       {% include disqus.html %}
+    {% endif %}
+
   <div class="post-up" align="center">
   	<a href="#">
   	<i class="fa fa-angle-up fa-2x"></i>

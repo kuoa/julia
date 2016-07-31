@@ -1,12 +1,24 @@
 # Site settings
-title: Julia
-email:
+title: Julia #website title
 description: > # this means to ignore newlines until "baseurl:"
   Julia
-baseurl: # the subpath of your site, e.g. /blog/
-url: "http://kuoa.github.io" # the base hostname & protocol for your site
-twitter_username: kuoa
-github_username: kuoa
+url: # the base hostname & protocol for your site
+baseurl: # the sub-path of your site, e.g. /blog/
+
+disqus_shortname: kuoa # leave empty if you don't want comments
+google_analytics: false #if set to "true" modify the google_analytycs.html, set to false otherwise
+
+# Links settings
+links:
+  - name:         About
+    url:          /about
+    external:     false
+  - name:         Projects
+    url:          /projects
+    external:     true
+  - name:         GitHub
+    url:          http://github.com/kuoa
+    external:     true
 
 # Build settings
 markdown: redcarpet
