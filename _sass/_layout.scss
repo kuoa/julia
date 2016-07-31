@@ -21,6 +21,7 @@
         padding-top: 16px;
         text-align: center;
         text-transform: uppercase;
+        margin-right: 16px;
 
         .menu-icon {
             display: none;
@@ -45,6 +46,7 @@
             }
 
             .trigger {
+                font-size: 0.9em;
                 clear: both;
                 display: none;
             }
@@ -137,7 +139,7 @@
         width: 100%;
 
         @include media-query($on-palm) {
-            font-size: 1.33em;
+            font-size: 1.0em;
         }
     }
 
@@ -150,7 +152,7 @@
        float: right;
 
        @include media-query($on-palm) {
-         font-size: 1.0em;
+         font-size: 0.8em;
        }
      }
 

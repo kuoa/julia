@@ -10,6 +10,8 @@ google_analytics: false #if set to "true" modify the google_analytycs.html, set 
 
 # Links settings
 links:
+  - name:         Home
+    url:
   - name:         About
     url:          /about
     external:     false

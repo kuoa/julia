@@ -6,14 +6,9 @@
       </a>
 
       <div class="trigger">
-          <a class="page-link" href="{{ site.baseurl }}/">Home</a>
-
         {% for link in site.links %}
           <a class="page-link" target="{% if link.external %}_blank{% else %}_top{% endif %}"
-             class="main"
-             href="{% unless link.external %}{{ site.url }}{% endunless %}{{ link.url }}">
-              {{ link.name }}
-          </a>
+             href="{% unless link.external %}{{ site.url }}{% endunless %}{{ link.url }}">{{link.name}}</a>
         {% endfor %}
       </div>
     </nav>
