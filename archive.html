@@ -1,0 +1,33 @@
+---
+layout: page
+title: Archive
+subtitle: Do something you like.
+permalink: /archive/
+---
+
+<div class="home">
+	{% for category in site.categories %}
+	{% capture cat %}{{ category | first }}{% endcapture %}
+
+	<h2>{{ cat | capitalize }}</h2>
+		<ul class="post-list">
+		{% for post in site.categories[cat] %}
+		  <li>
+		  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			 <span class="post-date">{{ post.date | date_to_long_string }}</span>
+		  </li>
+
+			{% if post.tags %}
+			<div class="post-tags">
+				{% for tag in post.tags %}
+				<span class="post-tag">#{{ tag }}</span>
+				{% endfor %}
+			</div>
+			{% endif %}
+
+		{% endfor %}
+
+		</ul>
+
+	{% endfor %}
+</div>

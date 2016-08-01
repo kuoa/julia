@@ -2,7 +2,8 @@
 layout: post
 title: "Testing Readability"
 description: "A ton of text to test readability."
-tags: [sample post, readability, test, intro]
+tags: books
+category: misc
 image:
   feature: abstract-6.jpg
   credit: dargadgetz

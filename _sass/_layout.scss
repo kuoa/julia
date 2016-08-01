@@ -148,6 +148,7 @@
        letter-spacing: -1px;
        color: $grey-color;
        float: right;
+       padding-top: 6px;
 
        @include media-query($on-palm) {
          font-size: 0.8em;
@@ -161,6 +162,21 @@
         text-transform: uppercase;
         display: inline-block;
     }
+
+     .post-tags{
+       padding-left: 40px;
+     }
+     .post-tag {
+       padding-bottom: 3em;
+       margin: auto;
+       font-size: 1em;
+       color: $grey-color;
+       font-family: $post-font-family;
+
+       @include media-query($on-palm) {
+         font-size: 0.7em;
+       }
+     }
 
 /* Post Format
  * ============================================== */
