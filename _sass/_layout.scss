@@ -59,6 +59,8 @@
             .page-link {
                 display: block;
                 padding: 5px 10px;
+                text-align: center;
+                margin-left: 20px;
             }
         }
 
@@ -67,11 +69,7 @@
             font-weight: 600 !important;
             line-height: $base-line-height;
             letter-spacing: 0.05em;
-
-
-            &:not(:first-child) {
-                    margin-left: 20px;
-            }
+            margin-right: 20px;
 
             &:hover {
                 opacity: 0.8
