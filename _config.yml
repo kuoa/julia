@@ -18,15 +18,13 @@ links:
   - name:         Archive
     url:          /archive
     external:     false
-  - name:         Projects
-    url:          /projects
     external:     false
   - name:         GitHub
     url:          http://github.com/kuoa
     external:     true
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 
 redcarpet:

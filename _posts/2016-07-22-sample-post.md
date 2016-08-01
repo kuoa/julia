@@ -2,7 +2,6 @@
 layout: post
 title: Sample Post
 description: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
-modified: 2014-12-24
 author: kuoa
 category: misc
 tags: book live life
@@ -79,7 +78,7 @@ Syntax highlighting via Rouge
 }
 ```
 
-Non Pygments code example
+Non Rouge code example
 
     <div id="awesome">
         <p>This is great isn't it?</p>
