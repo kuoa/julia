@@ -1,4 +1,4 @@
-# Julia [![Demo](https://img.shields.io/badge/julia-demo-green.svg)](http://kuoa.github.io)
+# Julia [![Demo](https://img.shields.io/badge/julia-demo-green.svg)](https://kuoa.github.io/julia/)
 
 A minimalistic jekyll theme
 
